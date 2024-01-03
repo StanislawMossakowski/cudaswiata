@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankieta</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="topnav">
+    <a href="index.html">Strona główna</a>
+    <a href="info.html">Informacje</a>
+    <a class=active href="ankieta.html">Ankieta</a>
+  </div>
+
+  <div class="logo-cont"><div class="logo">Cuda Świata</div></div>
+<div class="content">
+  <hr>
+  <h2>Płeć:</h2>
+    <input type="radio" id=kobieta name=plec value=kobieta>
+    <label for=kobieta>Kobieta</label><br>
+    <input type="radio" id=mezczyzna name=plec value=mezczyzna>
+    <label for=mezczyzna>Mężczyzna</label><br>
+    <input type="radio" id=inne name=plec value=inne>
+    <label for=inne>Inne</label>
+<hr>
+<h2>Przedział wiekowy:</h2>
+    <input type="radio" id=a name=wiek value=a>
+    <label for=a>0-6</label><br>
+    <input type="radio" id=b name=wiek value=b>
+    <label for=b>7-12</label><br>
+    <input type="radio" id=c name=wiek value=c>
+    <label for=c>13-18</label><br>
+    <input type="radio" id=d name=wiek value=d>
+    <label for=d>19-29</label><br>
+    <input type="radio" id=e name=wiek value=e>
+    <label for=d>30-45</label><br>
+    <input type="radio" id=f name=wiek value=f>
+    <label for=f>45-65</label><br>
+    <input type="radio" id=g name=wiek value=g>
+    <label for=g>65+</label><hr>
+<h2>Czy potrafisz już wymienić wszystkie 7 cudów świata?</h2>
+<input type="radio" id=tak name=pytanie value=tak>
+    <label for=tak>Tak</label><br>
+    <input type="radio" id=nie name=pytanie value=nie>
+    <label for=nie>Nie</label><hr>
+  <h2>Czy dowiedziałeś/aś się czegoś nowego?</h2>
+  <input type="radio" id=tak1 name=pytanie value=tak1>
+  <label for=tak1>Tak</label><br>
+  <input type="radio" id=nie1 name=pytanie value=nie1>
+  <label for=nie1>Nie</label><hr>
+  <h2>Czy 7 cudów świata wydają ci się interesujące?</h2>
+  <input type="radio" id=tak2 name=pytanie2 value=tak2>
+    <label for=tak2>Tak</label><br>
+    <input type="radio" id=nie2 name=pytanie2 value=nie2>
+    <label for=nie2>Nie</label><hr>
+  <h2>Wskaż, o których cudach czegoś się dowiedziałeś/aś</h2>
+  <input type="checkbox" id=palac name=pytanie4 value=palac>
+  <label for=palac>Piramida Cheopsa</label><br>
+  <input type="checkbox" id=stare name=pytanie4 value=stare>
+  <label for=stare>Wiszące Ogrody Semiramidy</label><br>
+  <input type="checkbox" id=muz1 name=pytanie4 value=muz1>
+  <label for=muz1>Świątynia Artemidy w Efezie</label><br>
+  <input type="checkbox" id=muz2 name=pytanie4 value=muz2>
+  <label for=muz2>Posąg Zeusa w Olimpii</label><br>
+  <input type="checkbox" id=lazienki name=pytanie4 value=lazienki>
+  <label for=lazienki>Mauzoleum w Halikarnasie</label><br>
+  <input type="checkbox" id=zamek name=pytanie4 value=zamek>
+  <label for=zamek>Kolos Rodyjski</label><br>
+  <input type="checkbox" id=grob name=pytanie4 value=grob>
+  <label for=grob>Latarnia Morska na Faros</label><br>
+<hr>
+  <label for=uwagi>Uwagi:</label><br>
+  <textarea id=uwagi name=uwagi cols="20" rows="7" maxlenth=50>Napisz do mnie</textarea>
+    <hr>
+  <input type=reset value="Wyczyść">
+  <input type=submit value=Prześlij>	
+
+
+</div>
+</body>
+</html>
